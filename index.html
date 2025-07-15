@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BOBYCOIN - Pirate de la Route</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      background: url('background_bobycoin.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    header h1 {
+      font-family: 'UnifrakturCook', cursive;
+      font-size: 3em;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 20px;
+      background: gold;
+      color: #000;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 20px;
+      background: #000;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    input[type="text"] {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BOBYCOIN</h1>
+    <p>La cryptomonnaie des pirates de la route</p>
+    <a href="#airdrop" class="btn">Rejoindre l'aventure</a>
+  </header>
+
+  <section id="about">
+    <h2>Pourquoi BOBYCOIN ?</h2>
+    <p>
+      Parce que la liberté a besoin d’un carburant moderne.  
+      BOBYCOIN est né dans un vieux van pirate pour soutenir celles et ceux qui vivent autrement :  
+      vanlifers, nomades, routards, marins...  
+      Une crypto pour rouler libre et solidaire.
+    </p>
+  </section>
+
+  <section id="airdrop">
+    <h2>Recevoir des BOBY</h2>
+    <p>Tu vis en van ou tu rêves de partir ? Renseigne ton wallet pour recevoir un airdrop dès le lancement :</p>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Ton adresse wallet" style="padding:10px; width: 80%; max-width: 400px; border-radius: 6px; border: none;" />
+      <br><br>
+      <button class="btn" type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 BOBYCOIN. Fièrement né dans Captain Boby. 🏴‍☠️
+  </footer>
+</body>
+</html>
